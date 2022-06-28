@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;500;600;700&family=Source+Serif+Pro:wght@400;600;700&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Source Serif Pro', serif; */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Serif Pro';
+}
+
+.container {
+    max-width: 1365px;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+.background-ats{
+    background-attachment: fixed;
+}
+.background-res {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.mainBody{
+    padding-top: 72px;
+}
+
+/* nav Start */
+.navbar-brand img {
+    width: 200px;
+    height: 62px;
+}
+
+.navbar {
+    background-color: rgb(255 255 255);
+    height: 73px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    /* position: sticky; */
+}
+
+.cont {
+    margin: 0 74px;
+}
+
+
+
+.nav-link {
+    color: black;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.dropdown_menu_change{
+    border: none;
+}
+/* .nav-link:hover {
+    background: #2980b9;
+    color: black;
+    transform: scale(1.1);
+    transform: translateY(15px);
+} */
+
+/* nav End */
+
+/* slide Start */
+.mainBody{
+    padding-top: 72px;
+}
+.slide_img img {
+    max-width: 100%;
+    height: 600px;
+
+}
+
+.slider {
+    text-align: center;
+    position: relative;
+
+}
+
+.slider-text {
+    width: 73%;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider-title .first_title {
+    margin: 0px;
+    color: rgb(255, 255, 58);
+    font-size: 40px;
+    /* line-height: 1.2; */
+    background-color: rgba(219, 219, 219, 0.4);
+}
+
+.slider-title .last_title {
+    margin: 0px;
+    color: rgb(255, 255, 58);
+    /* line-height: 1.2; */
+    font-size: 24px;
+    margin: 1% 34%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* height: 30px; */
+}
+.slider-title .secnd_first_title {
+    margin: 0px;
+    color: white;
+    font-size: 40px;
+    /* line-height: 1.2; */
+    background-color: rgba(219, 219, 219, 0.4);
+}
+
+.slider-title .secnd_last_title {
+    margin: 0px;
+    color: white;
+    /* line-height: 1.2; */
+    font-size: 24px;
+    margin: 1% 28%;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* height: 30px; */
+}
+
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+}
+
+/* slide End */
+
+
+/*  contant start */
+
+.paragraph {
+    padding-right: 45px;
+    line-height: 30px;
+}
+.pCel{
+    font-size: 35px;
+}
+
+.celPeragraph{
+    line-height: 1.8em;
+    font-size: 18px;
+}
+/*  contant end */
+
+/* Product line start */
+.pline {
+    height: 1px;
+    background-color: #fcf5f5;
+}
+
+.product_img img {
+    height: 295px;
+    width: 295px;
+}
+
+.proFont{
+    font-size: 32px;
+}
+
+/* Product line end */
+
+/* features start */
+#features {
+    padding: 0% 6%;
+    /* background-color: #e8ded2; */
+}
+
+.features-col {
+    /* border: 1px solid #ff02c0; */
+    background-color: #e5e5ed;
+    border-radius: 10px;
+    padding: 55px;
+    margin: 24px 12px;
+    transition: .4s;
+    height: 282px;
+    width: 400px;
+  }
+
+.features-col:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.icon-style {
+    /* background: #bb0aac; */
+    color: #59aafa;
+    padding-bottom: 17px;
+    /* margin: 5px 0px; */
+}
+
+.fusion_text {
+    font-size: 20px;
+    transform: translate3d(0, 0, 0);
+    text-align: center;
+}
+
+.sep_solid {
+    border-color: #190ffd;
+    border-top-width: 4px;
+}
+
+.cline {
+    height: 1px;
+    background-color: #e5e5ed;
+}
+
+.CMline {
+    height: 5px;
+    background-color: #1d1da5;
+    width: 33.33%;
+}
+
+.CS_style {
+    border: 5px solid rgb(57, 9, 230);
+    border-bottom: none;
+    width: 30%;
+    margin: 0 35%;
+}
+
+/* features end */
+
+/* current offer start */
+#Current_offer {
+    padding: 0% 6%;
+    /* background-color: #e8ded2; */
+}
+.currentFont{
+    font-size: 40px;
+}
+
+.OCO_style {
+    border: 5px solid white;
+    border-bottom: none;
+    width: 10%;
+    margin: 0 45%;
+}
+
+.CO_img img {
+    padding: 0 1px;
+    width: 280px;
+    height: 300px;
+  }
+.CO_text{
+    font-size: 18px;
+}
+
+/* current offer end */
+
+/* our_partner start */
+.our_partner_slide {
+    padding: 20px 65px;
+
+}
+
+.slick_slide img {
+    width: 241px;
+    height: 86px;
+    padding: 15px 10px;
+
+}
+
+.slick-prev.slick-arrow {
+    background-color: rgba(29, 36, 45, 0.7);
+    height: 30px;
+    width: 30px;
+}
+
+.slick-next.slick-arrow {
+    background-color: rgba(29, 36, 45, 0.7);
+    height: 30px;
+    width: 30px;
+}
+
+/* our_partner end */
+
+/* footer start */
+.line {
+    height: 1px;
+    background-color: #333232;
+}
+
+.icon {
+    width: 50px;
+    font-size: 20px;
+    float: left;
+}
+
+.bgColor {
+    background-color: #011a66;
+}
+
+.banner_page {
+    height: 305px;
+    width: 100%;
+}
+
+.TO {
+    color: #ff9800;
+}
+
+.TO:hover {
+    transition: ease-in-out .5s;
+    color: white;
+    text-decoration-line: none;
+
+}
+
+.toHov {
+    color: #ff9800;
+}
+
+.toHov:hover {
+    transition: ease-in-out .5s;
+    color: white;
+    text-decoration-line: none;
+
+}
+
+/* footer end */
+
+/* =========================Home End =============================== */
+
+/* ===============About us ========================= */
+/* about us start */
+#about_us {
+    height: 445px;
+    width: 100%;
+}
+.entry_title{
+    font-size: 54px;
+}
+/* about us end */
+
+/* post content start */
+
+.about_video {
+    margin: 150px auto;
+    width: 400px;
+    height: 200px;
+}
+
+.area8-icon {
+    background-color: #190ffc;
+    width: 56.32px;
+    height: 56.32px;
+    text-align: center;
+    font-size: 28px;
+    float: left;
+}
+
+.no a {
+    color: #ff9800;
+}
+.about_title{
+    font-size: 1.5em;
+}
+
+.L_height {
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+/* post content end */
+
+/* features start */
+
+.features_col_change {
+    /* border: 1px solid #ff02c0;
+    background-color: #e5e5ed; */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+    padding: 53px;
+    margin: 24px 12px;
+    transition: .4s;
+    height: 325px;
+    width: 390px;
+  }
+.features_col_change:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.Iclor{
+    color: #ff9800;
+}
+
+/* features end */
+/* =========About us End================== */
+
+/* ============Our Mileston Start============= */
+
+.Yicon {
+    display: inline-block;
+    line-height: 60px;
+    font-size: 60px;
+    width: 60px;
+}
+.yFont{
+    font-size: 26px;
+}
+.year_text {
+    line-height: 45px;
+    margin-left: 20px;
+  }
+/* ============Our Mileston End============= */
+
+/* ===========Our Team start=================== */
+#Our_team {
+    background-color: #cecece;
+}
+
+.team_img {
+    width: 222px;
+    height: 233px;
+  }
+
+.team_img:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.Oteam {
+    /* width: 265px; */
+    height: 450px;
+  }
+
+/* ===========Our Team End=================== */
+
+/* ============Our organizer start============= */
+.imghover {
+    width: 1200px;
+    height: 584px;
+}
+
+.imghover:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    box-shadow: white;
+}
+
+/* ============Our organizer end============= */
+
+/* ============== Our Coverage Start=============== */
+.OCS_img {
+    width: 700px;
+    height: 944px;
+}
+
+.OCS_imghover:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    box-shadow: white;
+}
+
+/* ============== Our Coverage End=============== */
+
+/* ============Poultry Start============= */
+/* .anti{
+    border: 1px solid;
+    border-radius: 5px;
+  
+} */
+
+.poultry_Img img {
+    width: 394px;
+    height: 430px;
+  }
+
+.p_style {
+    border: 5px solid rgb(57, 9, 230);
+    border-bottom: none;
+    width: 8%;
+    margin: 0 46%;
+}
+
+/*================= poultry End============= */
+
+/* ================Our Partner start=================  */
+.dong_img img {
+    width: 300px;
+    height: 250px;
+}
+
+.dong_title{
+    font-size: 32px;
+}
+.dong_right{
+    padding-top: 85px;
+}
+/* =================Corporate Buyers start========== */
+.C_buyers_line {
+    height: 3px;
+    margin: 0 100px 0 100px;
+    background-color: #cacaca;
+}
+
+.CB_img img {
+    width: 356px;
+    height: 100px;
+}
+.nourish_text{
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
+.lion_feeds_img img {
+    width: 250px;
+    height: 251px;
+}
+
+/* =============Gallery Start============ */
+.g_img img {
+    width: 320px;
+    height: 302px;
+    padding: 10px 0px;
+  }
+
+.gallery_title{
+    font-size: 40px;
+}
+
+/* contact start */
+.C_icon {
+    font-size: 48px;
+    color: #190ffc;
+    height: 88px;
+    width: 100%;
+}
+
+.C_heading {
+    color: #190ffc;
+    font-size: 34px;
+}
+
+.C_text{
+    line-height: 15px;
+}
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 20px;
+    margin: 0 50% 0 50%;
+}
+
+
+
+@media (max-width:768px){
+    .nav-link{
+        background: rgba(0, 0, 0, 0.3);
+        text-align: center;
+    }
+
+  .dropdown_menu_change{
+      text-align: center;
+  }
+  .navbar{
+      height:auto;
+  }
+
+
+.slide_img img {
+    max-width: 100%;
+    height: 300px;
+
+}
+.pline{
+    display: none;
+}
+
+.cline{
+    display: none;
+}
+.imghover {
+    width: 100%;
+    height: 500px;
+}
+
+.OCS_img {
+    width: 100%;
+    height: 500px;
+}
+.cont {
+    margin: 0 20px;
+  }
+}
