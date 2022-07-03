@@ -36,16 +36,16 @@
 
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label">Corporate Contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('corporate_contant', $corporate_contant); ?>" name="corporate_contant" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('corporate_contant',$corporate_contant)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('corporate_contant', $corporate_contant); ?>" name="corporate_contant" id="VertimeassageInput" rows="3" placeholder="Enter here Corporate Contant"><?php echo set_value('corporate_contant',$corporate_contant)?></textarea>
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Button</label>
-                                            <input type="text" value="<?php echo set_value('button', $button); ?>" name="button" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('button', $button); ?>" name="button" class="form-control" id="fullnameInput" placeholder="Enter here Button ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Button Link</label>
-                                            <input type="text" value="<?php echo set_value('button_link', $button_link); ?>" name="button_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('button_link', $button_link); ?>" name="button_link" class="form-control" id="fullnameInput" placeholder="Enter Button Link ">
                                         </div>
                                     </div>
                                     <div class="col-12">

@@ -27,7 +27,7 @@
                                         <h2> Water Solution</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('water_heading', $water_heading); ?>" name="water_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('water_heading', $water_heading); ?>" name="water_heading" class="form-control" id="fullnameInput" placeholder="Enter here title ">
                                         </div>
 
 
@@ -41,15 +41,15 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Image Title</label>
-                                            <input type="text" value="<?php echo set_value('water_img_title', $water_img_title); ?>" name="water_img_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('water_img_title', $water_img_title); ?>" name="water_img_title" class="form-control" id="fullnameInput" placeholder="Enter here Image Title ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Button</label>
-                                            <input type="text" value="<?php echo set_value('water_img_button', $water_img_button); ?>" name="water_img_button" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('water_img_button', $water_img_button); ?>" name="water_img_button" class="form-control" id="fullnameInput" placeholder="Enter here Button ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Button Link</label>
-                                            <input type="text" value="<?php echo set_value('water_button_link', $water_button_link); ?>" name="water_button_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('water_button_link', $water_button_link); ?>" name="water_button_link" class="form-control" id="fullnameInput" placeholder="Enter here Button Link ">
                                         </div>
                                     </div>
                                     <div class="col-12">

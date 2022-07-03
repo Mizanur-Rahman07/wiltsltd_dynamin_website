@@ -27,12 +27,12 @@
                                         <h2>Current Offer</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('current_title', $current_title); ?>" name="current_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('current_title', $current_title); ?>" name="current_title" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Image Contant</label>
-                                            <input type="text" value="<?php echo set_value('current_img_paragraph', $current_img_paragraph); ?>" name="current_img_paragraph" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('current_img_paragraph', $current_img_paragraph); ?>" name="current_img_paragraph" class="form-control" id="fullnameInput" placeholder="Enter here Image Contant ">
                                         </div>
 
                                         <div class="py-2 ">

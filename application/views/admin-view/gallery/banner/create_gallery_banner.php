@@ -27,7 +27,7 @@
                                         <h2>Gallery Banner</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('gallery_heading', $gallery_heading); ?>" name="gallery_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('gallery_heading', $gallery_heading); ?>" name="gallery_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 

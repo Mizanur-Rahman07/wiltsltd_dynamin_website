@@ -27,17 +27,17 @@
                                         <h2>Our Calender</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Icon</label>
-                                            <input type="text" value="<?php echo set_value('year_icon', $year_icon); ?>" name="year_icon" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('year_icon', $year_icon); ?>" name="year_icon" class="form-control" id="fullnameInput" placeholder="Enter here Icon [NB: fontawesome version  5.15.4 supported]  ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Year Title</label>
-                                            <input type="text" value="<?php echo set_value('year_title', $year_title); ?>" name="year_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('year_title', $year_title); ?>" name="year_title" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Year Contant</label>
-                                            <input type="text" value="<?php echo set_value('year_contant', $year_contant); ?>" name="year_contant" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('year_contant', $year_contant); ?>" name="year_contant" class="form-control" id="fullnameInput" placeholder="Enter here Contant ">
                                         </div>
                                       
                                     </div>

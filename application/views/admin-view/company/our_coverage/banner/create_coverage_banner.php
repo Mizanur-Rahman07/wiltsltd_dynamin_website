@@ -27,7 +27,7 @@
                                         <h2>Coverage Banner</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('coverage_heading', $coverage_heading); ?>" name="coverage_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('coverage_heading', $coverage_heading); ?>" name="coverage_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 

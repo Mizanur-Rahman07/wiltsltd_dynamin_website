@@ -27,19 +27,19 @@
                                         <h2>Contact </h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Icon</label>
-                                            <input type="text" value="<?php echo set_value('icon', $icon); ?>" name="icon" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('icon', $icon); ?>" name="icon" class="form-control" id="fullnameInput" placeholder="Enter here Icon [NB: fontawesome version  5.15.4 supported] ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading </label>
-                                            <input type="text" value="<?php echo set_value('icon_heading', $icon_heading); ?>" name="icon_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('icon_heading', $icon_heading); ?>" name="icon_heading" class="form-control" id="fullnameInput" placeholder="Enter here Heading ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Contant </label>
-                                            <input type="text" value="<?php echo set_value('icon_contant', $icon_contant); ?>" name="icon_contant" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('icon_contant', $icon_contant); ?>" name="icon_contant" class="form-control" id="fullnameInput" placeholder="Enter here Contant ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label"> Sub Contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('sub_contant', $sub_contant); ?>" name="sub_contant" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('icon_contant',$icon_contant)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('sub_contant', $sub_contant); ?>" name="sub_contant" id="VertimeassageInput" rows="3" placeholder="Enter here Sub contant"><?php echo set_value('icon_contant',$icon_contant)?></textarea>
                                         </div>
 
                                     </div>

@@ -27,13 +27,13 @@
                                         <h2> Our Partners</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('contant_title', $contant_title); ?>" name="contant_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('contant_title', $contant_title); ?>" name="contant_title" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
                                         
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label">Partner Contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('contant', $contant); ?>" name="contant" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('contant',$contant)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('contant', $contant); ?>" name="contant" id="VertimeassageInput" rows="3" placeholder="Enter here Partner Contant"><?php echo set_value('contant',$contant)?></textarea>
                                         </div>
 
                                         <div class="py-2 ">
@@ -46,11 +46,11 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Button</label>
-                                            <input type="text" value="<?php echo set_value('button', $button); ?>" name="button" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('button', $button); ?>" name="button" class="form-control" id="fullnameInput" placeholder="Enter here Button ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Button Link</label>
-                                            <input type="text" value="<?php echo set_value('button_link', $button_link); ?>" name="button_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('button_link', $button_link); ?>" name="button_link" class="form-control" id="fullnameInput" placeholder="Enter here Button Link ">
                                         </div>
                                     </div>
                                     <div class="col-12">

@@ -27,7 +27,7 @@
                                         <h2> Hormone</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('hormone_heading', $hormone_heading); ?>" name="hormone_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('hormone_heading', $hormone_heading); ?>" name="hormone_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 
@@ -41,15 +41,15 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Image Title</label>
-                                            <input type="text" value="<?php echo set_value('hormone_img_title', $hormone_img_title); ?>" name="hormone_img_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('hormone_img_title', $hormone_img_title); ?>" name="hormone_img_title" class="form-control" id="fullnameInput" placeholder="Enter here Image Title ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Button</label>
-                                            <input type="text" value="<?php echo set_value('hormone_button', $hormone_button); ?>" name="hormone_button" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('hormone_button', $hormone_button); ?>" name="hormone_button" class="form-control" id="fullnameInput" placeholder="Enter here Button ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Button Link</label>
-                                            <input type="text" value="<?php echo set_value('hormone_button_link', $hormone_button_link); ?>" name="hormone_button_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('hormone_button_link', $hormone_button_link); ?>" name="hormone_button_link" class="form-control" id="fullnameInput" placeholder="Enter here Button Link ">
                                         </div>
                                     </div>
                                     <div class="col-12">

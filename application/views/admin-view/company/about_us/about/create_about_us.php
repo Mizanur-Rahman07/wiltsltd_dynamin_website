@@ -27,27 +27,27 @@
                                         <h2>About Us</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('about_us_title', $about_us_title); ?>" name="about_us_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('about_us_title', $about_us_title); ?>" name="about_us_title" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label">About Contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('about_contant', $about_contant); ?>" name="about_contant" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('about_contant',$about_contant)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('about_contant', $about_contant); ?>" name="about_contant" id="VertimeassageInput" rows="3" placeholder="Enter here image contant"><?php echo set_value('about_contant',$about_contant)?></textarea>
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Video Link</label>
-                                            <input type="text" value="<?php echo set_value('video_link', $video_link); ?>" name="video_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('video_link', $video_link); ?>" name="video_link" class="form-control" id="fullnameInput" placeholder="Enter here Video Link ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Icon</label>
-                                            <input type="text" value="<?php echo set_value('phone_icon', $phone_icon); ?>" name="phone_icon" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('phone_icon', $phone_icon); ?>" name="phone_icon" class="form-control" id="fullnameInput" placeholder="Enter here Icon [NB: fontawesome version  5.15.4 supported]">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Phone No</label>
-                                            <input type="text" value="<?php echo set_value('phone_no', $phone_no); ?>" name="phone_no" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('phone_no', $phone_no); ?>" name="phone_no" class="form-control" id="fullnameInput" placeholder="Enter here Phone no ">
                                         </div>
 
                                     </div>

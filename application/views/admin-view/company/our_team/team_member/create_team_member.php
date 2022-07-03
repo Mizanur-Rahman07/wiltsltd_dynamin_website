@@ -36,12 +36,12 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Member Name</label>
-                                            <input type="text" value="<?php echo set_value('member_name', $member_name); ?>" name="member_name" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('member_name', $member_name); ?>" name="member_name" class="form-control" id="fullnameInput" placeholder="Enter here Name ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Member Surname</label>
-                                            <input type="text" value="<?php echo set_value('member_surname', $member_surname); ?>" name="member_surname" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('member_surname', $member_surname); ?>" name="member_surname" class="form-control" id="fullnameInput" placeholder="Enter here Surname ">
                                         </div>
 
 

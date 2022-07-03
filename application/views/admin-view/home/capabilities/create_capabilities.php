@@ -27,17 +27,17 @@
                                         <h2>Capabilities</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('capabilities_title', $capabilities_title); ?>" name="capabilities_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('capabilities_title', $capabilities_title); ?>" name="capabilities_title" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Capabilities Icon</label>
-                                            <input type="text" value="<?php echo set_value('capabilities_icon', $capabilities_icon); ?>" name="capabilities_icon" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('capabilities_icon', $capabilities_icon); ?>" name="capabilities_icon" class="form-control" id="fullnameInput" placeholder="Enter here Icon [NB: fontawesome version  5.15.4 supported] ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label">Icon Contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('capabilities_icon_paragraph', $capabilities_icon_paragraph); ?>" name="capabilities_icon_paragraph" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('capabilities_icon_paragraph',$capabilities_icon_paragraph)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('capabilities_icon_paragraph', $capabilities_icon_paragraph); ?>" name="capabilities_icon_paragraph" id="VertimeassageInput" rows="3" placeholder="Enter here icon contant"><?php echo set_value('capabilities_icon_paragraph',$capabilities_icon_paragraph)?></textarea>
                                         </div>
 
                                     </div>

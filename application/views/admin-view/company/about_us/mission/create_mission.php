@@ -27,17 +27,17 @@
                                         <h2>Our Mission</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('mission_heading', $mission_heading); ?>" name="mission_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('mission_heading', $mission_heading); ?>" name="mission_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Icon</label>
-                                            <input type="text" value="<?php echo set_value('mission_icon', $mission_icon); ?>" name="mission_icon" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('mission_icon', $mission_icon); ?>" name="mission_icon" class="form-control" id="fullnameInput" placeholder="Enter here Icon [NB: fontawesome version  5.15.4 supported]">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label">Mission Contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('icon_contant', $icon_contant); ?>" name="icon_contant" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('icon_contant',$icon_contant)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('icon_contant', $icon_contant); ?>" name="icon_contant" id="VertimeassageInput" rows="3" placeholder="Enter here icon contant"><?php echo set_value('icon_contant',$icon_contant)?></textarea>
                                         </div>
 
                                       

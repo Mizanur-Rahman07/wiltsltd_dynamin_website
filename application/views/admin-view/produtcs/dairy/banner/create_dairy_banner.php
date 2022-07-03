@@ -27,7 +27,7 @@
                                         <h2>Dairy Banner</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('dairy_heading', $dairy_heading); ?>" name="dairy_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('dairy_heading', $dairy_heading); ?>" name="dairy_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 

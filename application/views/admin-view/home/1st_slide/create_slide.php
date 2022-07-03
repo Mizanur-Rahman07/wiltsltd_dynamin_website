@@ -35,11 +35,11 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Slide Title</label>
-                                            <input type="text" value="<?php echo set_value('slide_heading_title', $slide_heading_title); ?>" name="slide_heading_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('slide_heading_title', $slide_heading_title); ?>" name="slide_heading_title" class="form-control" id="fullnameInput" placeholder="Enter here Title">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Sub Title</label>
-                                            <input type="text" value="<?php echo set_value('slide_title', $slide_title); ?>" name="slide_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('slide_title', $slide_title); ?>" name="slide_title" class="form-control" id="fullnameInput" placeholder="Enter here Sub Title ">
                                         </div>
 
                                     </div>

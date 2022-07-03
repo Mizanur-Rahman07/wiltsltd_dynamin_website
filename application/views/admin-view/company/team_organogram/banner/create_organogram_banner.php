@@ -24,10 +24,10 @@
                                 <form action="" method="POST" class="row g-3" enctype="multipart/form-data">
                                     <!-- <div class="col-md-2"></div> -->
                                     <div class="col-md-6">
-                                        <h2>Team Banner</h2>
+                                        <h2>Team Organogram Banner</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('organogram_heading', $organogram_heading); ?>" name="organogram_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('organogram_heading', $organogram_heading); ?>" name="organogram_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 

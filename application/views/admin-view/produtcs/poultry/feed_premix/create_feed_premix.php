@@ -27,7 +27,7 @@
                                         <h2> Feed Premix</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('premix_heading', $premix_heading); ?>" name="premix_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('premix_heading', $premix_heading); ?>" name="premix_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 
@@ -41,15 +41,15 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Image Title</label>
-                                            <input type="text" value="<?php echo set_value('premix_img_title', $premix_img_title); ?>" name="premix_img_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('premix_img_title', $premix_img_title); ?>" name="premix_img_title" class="form-control" id="fullnameInput" placeholder="Enter here Image Title ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Button</label>
-                                            <input type="text" value="<?php echo set_value('premix_button', $premix_button); ?>" name="premix_button" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('premix_button', $premix_button); ?>" name="premix_button" class="form-control" id="fullnameInput" placeholder="Enter here Button ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Button Link</label>
-                                            <input type="text" value="<?php echo set_value('premix_button_link', $premix_button_link); ?>" name="premix_button_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('premix_button_link', $premix_button_link); ?>" name="premix_button_link" class="form-control" id="fullnameInput" placeholder="Enter here Button Link  ">
                                         </div>
                                     </div>
                                     <div class="col-12">

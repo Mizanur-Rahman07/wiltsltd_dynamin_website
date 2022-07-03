@@ -27,7 +27,7 @@
                                         <h2> Nsaid Solution</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('nsaid_heading', $nsaid_heading); ?>" name="nsaid_heading" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('nsaid_heading', $nsaid_heading); ?>" name="nsaid_heading" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 
@@ -41,15 +41,15 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Image Title</label>
-                                            <input type="text" value="<?php echo set_value('nsaid_img_title', $nsaid_img_title); ?>" name="nsaid_img_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('nsaid_img_title', $nsaid_img_title); ?>" name="nsaid_img_title" class="form-control" id="fullnameInput" placeholder="Enter here Image Title ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Button</label>
-                                            <input type="text" value="<?php echo set_value('nsaid_button', $nsaid_button); ?>" name="nsaid_button" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('nsaid_button', $nsaid_button); ?>" name="nsaid_button" class="form-control" id="fullnameInput" placeholder="Enter here Button ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label"> Button Link</label>
-                                            <input type="text" value="<?php echo set_value('nsaid_button_link', $nsaid_button_link); ?>" name="nsaid_button_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('nsaid_button_link', $nsaid_button_link); ?>" name="nsaid_button_link" class="form-control" id="fullnameInput" placeholder="Enter here Button Link ">
                                         </div>
                                     </div>
                                     <div class="col-12">

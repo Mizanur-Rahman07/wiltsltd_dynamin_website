@@ -27,12 +27,12 @@
                                         <h2>Production</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('product_title', $product_title); ?>" name="product_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('product_title', $product_title); ?>" name="product_title" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Image Title</label>
-                                            <input type="text" value="<?php echo set_value('product_img_title', $product_img_title); ?>" name="product_img_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('product_img_title', $product_img_title); ?>" name="product_img_title" class="form-control" id="fullnameInput" placeholder="Enter here Image Title ">
                                         </div>
 
                                         <div class="py-2 ">

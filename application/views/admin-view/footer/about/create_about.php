@@ -34,31 +34,31 @@
                                         </div>
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label">Image contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('left_contant', $left_contant); ?>" name="left_contant" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('left_contant',$left_contant)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('left_contant', $left_contant); ?>" name="left_contant" id="VertimeassageInput" rows="3" placeholder="Enter here image contant"><?php echo set_value('left_contant',$left_contant)?></textarea>
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">About Us</label>
-                                            <input type="text"  value="<?php echo set_value('left_about_us', $left_about_us); ?>" name="left_about_us" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text"  value="<?php echo set_value('left_about_us', $left_about_us); ?>" name="left_about_us" class="form-control" id="fullnameInput" placeholder="Enter here content about ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Facebook Icon</label>
-                                            <input type="text"  value="<?php echo set_value('fb_icon', $fb_icon); ?>" name="fb_icon" class="form-control" id="fullnameInput" placeholder="Enter your Fb icon">
+                                            <input type="text"  value="<?php echo set_value('fb_icon', $fb_icon); ?>" name="fb_icon" class="form-control" id="fullnameInput" placeholder=" [NB: fontawesome version  5.15.4 supported] ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Facebook Icon Link</label>
-                                            <input type="text"  value="<?php echo set_value('fb_icon_link', $fb_icon_link); ?>" name="fb_icon_link" class="form-control" id="fullnameInput" placeholder="Enter your fb icon link">
+                                            <input type="text"  value="<?php echo set_value('fb_icon_link', $fb_icon_link); ?>" name="fb_icon_link" class="form-control" id="fullnameInput" placeholder="Enter here fb icon link">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Twiter Icon</label>
-                                            <input type="text"  value="<?php echo set_value('twit_icon', $twit_icon); ?>" name="twit_icon" class="form-control" id="fullnameInput" placeholder="Enter your twiter icon">
+                                            <input type="text"  value="<?php echo set_value('twit_icon', $twit_icon); ?>" name="twit_icon" class="form-control" id="fullnameInput" placeholder="[NB: fontawesome version  5.15.4 supported] ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Twiter Icon Link</label>
-                                            <input type="text"  value="<?php echo set_value('twit_icon_link', $twit_icon_link); ?>" name="twit_icon_link" class="form-control" id="fullnameInput" placeholder="Enter your twiter icon link ">
+                                            <input type="text"  value="<?php echo set_value('twit_icon_link', $twit_icon_link); ?>" name="twit_icon_link" class="form-control" id="fullnameInput" placeholder="Enter here twiter icon link ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Instragram Icon</label>
-                                            <input type="text"  value="<?php echo set_value('insta_icon', $insta_icon); ?>" name="insta_icon" class="form-control" id="fullnameInput" placeholder="Enter your insta icon">
+                                            <input type="text"  value="<?php echo set_value('insta_icon', $insta_icon); ?>" name="insta_icon" class="form-control" id="fullnameInput" placeholder="[NB: fontawesome version  5.15.4 supported] ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Instragram Icon Link</label>
@@ -66,7 +66,7 @@
                                         </div>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Youtube Icon</label>
-                                            <input type="text"  value="<?php echo set_value('ytube_icon', $ytube_icon); ?>" name="ytube_icon" class="form-control" id="fullnameInput" placeholder="Enter your youtube icon">
+                                            <input type="text"  value="<?php echo set_value('ytube_icon', $ytube_icon); ?>" name="ytube_icon" class="form-control" id="fullnameInput" placeholder="[NB: fontawesome version 5.15.4 supported] ">
                                         </div>
                                         <div class="py-2 ">
                                             <label for="inputEmail4" class="form-label">Youtube icon link</label>

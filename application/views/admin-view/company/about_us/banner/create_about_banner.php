@@ -27,7 +27,7 @@
                                         <h2>About Banner</h2>
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Heading Title</label>
-                                            <input type="text" value="<?php echo set_value('about_heding', $about_heding); ?>" name="about_heding" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('about_heding', $about_heding); ?>" name="about_heding" class="form-control" id="fullnameInput" placeholder="Enter here Title ">
                                         </div>
 
 

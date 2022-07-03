@@ -35,22 +35,22 @@
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Celebrate Title</label>
-                                            <input type="text" value="<?php echo set_value('celebrating_title', $celebrating_title); ?>" name="celebrating_title" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('celebrating_title', $celebrating_title); ?>" name="celebrating_title" class="form-control" id="fullnameInput" placeholder="Enter here Celebrate Title ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="VertimeassageInput" class="form-label">Celebrate contant</label>
-                                            <textarea class="form-control"  value="<?php echo set_value('celebrating_paragraph', $celebrating_paragraph); ?>" name="celebrating_paragraph" id="VertimeassageInput" rows="3" placeholder="Enter your image contant"><?php echo set_value('celebrating_paragraph',$celebrating_paragraph)?></textarea>
+                                            <textarea class="form-control"  value="<?php echo set_value('celebrating_paragraph', $celebrating_paragraph); ?>" name="celebrating_paragraph" id="VertimeassageInput" rows="3" placeholder="Enter here image contant"><?php echo set_value('celebrating_paragraph',$celebrating_paragraph)?></textarea>
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Celebrate Button</label>
-                                            <input type="text" value="<?php echo set_value('celebrating_button', $celebrating_button); ?>" name="celebrating_button" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('celebrating_button', $celebrating_button); ?>" name="celebrating_button" class="form-control" id="fullnameInput" placeholder="Enter here Celebrate Button ">
                                         </div>
 
                                         <div class="py-2 ">
                                             <label for="fullnameInput" class="form-label">Celebrate Button link</label>
-                                            <input type="text" value="<?php echo set_value('celebrating_button_link', $celebrating_button_link); ?>" name="celebrating_button_link" class="form-control" id="fullnameInput" placeholder="Enter your about ">
+                                            <input type="text" value="<?php echo set_value('celebrating_button_link', $celebrating_button_link); ?>" name="celebrating_button_link" class="form-control" id="fullnameInput" placeholder="Enter here Celebrate Button link ">
                                         </div>
 
                                     </div>
