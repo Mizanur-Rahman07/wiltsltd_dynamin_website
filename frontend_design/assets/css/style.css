@@ -579,7 +579,11 @@ a {
     margin: 0 50% 0 50%;
 }
 
-
+@media (max-width:1288px){
+    .navbar {
+        height: auto;
+    }
+}
 
 @media (max-width:768px){
     .nav-link{
